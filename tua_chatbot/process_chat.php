@@ -15,7 +15,7 @@ global $USER;
 $student_name = $USER->firstname;
 
 // 3. API Key and Gemini 3 Flash Model Endpoint
-$api_key = 'AIzaSyC1R0TmGtTOT3JWn2-cbzZiYm1-0f4GojM';
+
 // Updated to Gemini 3 Flash
 $url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=" . $api_key;
 
